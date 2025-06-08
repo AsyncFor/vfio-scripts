@@ -66,7 +66,7 @@ To have single GPU passthrough
 3) Create a VM using virtual machine manager, __Make sure to use UEFI.__
 4) Setup the VM normally, __DO NOT INSTALL ANY GUEST TOOLS__.
 5) After you finish setting it up, remove the components that emulate graphics and display.
-6) [Harden your VM] to make it look like a normal machine for drivers(https://github.com/QaidVoid/Complete-Single-GPU-Passthrough?tab=readme-ov-file#video-card-driver-virtualisation-detection)
+6) [Harden your VM](https://github.com/QaidVoid/Complete-Single-GPU-Passthrough?tab=readme-ov-file#video-card-driver-virtualisation-detection) to make it look like a normal machine for drivers
 7) Add USB devices
 8) Add all PCI devices from your GPU's IOMMU group.
 
